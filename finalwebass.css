@@ -1,0 +1,792 @@
+
+
+
+/* CSS CODING FOR SECTION A in BODY */
+/* -------------------------------------------------------------------- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+
+
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+
+  /* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  /* CSS CODING FOR SECTION B in BODY */
+  /* -------------------------------------------------------------------- */
+
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .section-image {
+    background-image: url("/Users/amir/Pictures/Photos Library.photoslibrary/originals/A/AE123815-4F22-4346-A08B-02FE2DC36507.jpeg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .sectiona {
+    align-items: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .sectiona p {
+
+    align-items: left;
+    font-size: 14px;
+    color: #fff;
+
+
+  }
+
+
+
+
+.button-77 {
+    align-items: center;
+    appearance: none;
+    background-clip: padding-box;
+    background-color: initial;
+    background-image: none;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: Eina01,sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: center;
+    line-height: 24px;
+    margin: 0;
+    min-height: 64px;
+    outline: none;
+    overflow: visible;
+    padding: 19px 26px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: auto;
+    word-break: keep-all;
+    z-index: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-77 {
+      padding: 19px 32px;
+    }
+  }
+  
+  .button-77:before,
+  .button-77:after {
+    border-radius: 80px;
+  }
+  
+  .button-77:before {
+    background-color: rgba(249, 58, 19, .32);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+  }
+  
+  .button-77:after {
+    background-color: initial;
+    background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+    bottom: 4px;
+    content: "";
+    display: block;
+    left: 4px;
+    overflow: hidden;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    transition: all 100ms ease-out;
+    z-index: -1;
+  }
+  
+  .button-77:hover:not(:disabled):after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition-timing-function: ease-in;
+  }
+  
+  .button-77:active:not(:disabled) {
+    color: #ccc;
+  }
+  
+  .button-77:active:not(:disabled):after {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    top: 4px;
+  }
+  
+  .button-77:disabled {
+    cursor: default;
+    opacity: .24;
+  }
+
+  .button-77 a{
+    color: whitesmoke;
+  }
+  /* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+  /* CSS CODING FOR SECTION C in BODY */
+  /* -------------------------------------------------------------------- */
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+
+  
+  .columna {
+    background-image: url("/Users/amir/Pictures/Photos Library.photoslibrary/resources/renders/4/4BFBAFF0-6519-4C16-B3EC-3DE165D8B60D_1_201_a.jpeg");
+    background-size: 600px;
+    background-color: #cccccc;
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 450px; 
+  }
+  
+  
+  .columnb {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 450px; 
+  }
+  
+
+  
+  .rowa:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .rowa h2 {
+    font-size: 32px;
+  }
+
+  .rowa p {
+    font-size: 12px;
+  }
+
+  
+  
+  
+  
+
+.button-89 {
+    --b: 3px;   
+    --s: .45em; 
+    --color: #373B44;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-89:hover,
+  .button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+  
+  .button-89:active {
+    background: var(--color);
+    color: #fff;
+  }
+  
+
+  .button-89 a{
+    color: rgb(51, 51, 51);
+  }
+  
+  /* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* CSS CODING FOR SECTION D in BODY */
+  /* -------------------------------------------------------------------- */
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .columntask2 {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    height: 450px; 
+  }
+  
+  
+  .rowtask2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .rowtask2 h2 {
+    font-size: 40px;
+  }
+
+  .rowtask2 p {
+    font-size: 14px;
+  }
+
+
+.columntask2{
+    animation: autoShowAnimation both; 
+    animation-timeline: view(70% 5%);
+    }
+
+    @keyframes autoShowAnimation{
+
+    from{
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+
+    }to{
+    opacity: 1;
+    transform: translateY(0) scale(1); 
+    }
+    }
+
+
+.rowtask2{
+    animation: autoShowAnimation both; 
+    animation-timeline: view(70% 5%);
+    }
+
+    @keyframes autoShowAnimation{
+
+    from{
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+
+    }to{
+    opacity: 1;
+    transform: translateY(0) scale(1); 
+    }
+    }
+
+
+
+  /* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* CSS CODING FOR SECTION E in BODY */
+  /* -------------------------------------------------------------------- */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  
+  .column {
+    flex: 50%;
+    padding: 15px;
+    height: 420px; 
+  }
+
+
+   
+
+.button-69 {
+    --b: 3px;   
+    --s: .45em; 
+    --color: #373B44;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-69:hover,
+  .button-69:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+  
+  .button-69:active {
+    background: var(--color);
+    color: #fff;
+  }
+
+
+  .button-69 a{
+    color: rgb(60, 60, 60);
+  }
+
+
+
+
+.row{
+    animation: autoShowAnimation both; 
+    animation-timeline: view(70% 5%);
+    }
+
+    @keyframes autoShowAnimation{
+
+    from{
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+
+    }to{
+    opacity: 1;
+    transform: translateY(0) scale(1); 
+    }
+    }
+
+
+
+.column{
+    animation: autoShowAnimation both; 
+    animation-timeline: view(70% 5%);
+    }
+
+    @keyframes autoShowAnimation{
+
+    from{
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+
+    }to{
+    opacity: 1;
+    transform: translateY(0) scale(1); 
+    }
+    }
+
+
+  /* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  /* CSS CODING FOR SECTION F in BODY */
+  /* -------------------------------------------------------------------- */
+
+
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .big-img-sec {
+    background-image: url("/Users/amir/Pictures/Photos Library.photoslibrary/originals/E/E9EC3034-5F20-4B64-8FA5-5D307F326B9B.jpeg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .section-big-im {
+    align-items: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 242, 255); 
+  }
+
+  .section-big-im p {
+
+    align-items: left;
+    font-size: 14px;
+    color: #fff700;
+
+
+  }
+
+
+  
+
+  .button-53 {
+    background-color: #3DD1E7;
+    border: 0 solid #ebeae5;
+    box-sizing: border-box;
+    color: #ffd500;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #ffffff solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-53:focus {
+    outline: 0;
+  }
+  
+  .button-53:after {
+    content: '';
+    position: absolute;
+    border: 3px solid #ffd900;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  
+  .button-53:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-53 {
+      padding: .75rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
+
+
+  .button-53 a{
+    color: rgb(253, 253, 253);
+  }
+
+
+
+
+.big-img-sec {
+    animation: autoBLurAnimation linear both; 
+    animation-timeline: view();
+}
+    @keyframes autoBLurAnimation {
+
+        0% {
+        filter: blur(40px);
+        }
+        
+        45%, 55% {
+        filter: blur(0px);
+        }
+        
+        100%{
+        filter: blur(40px);
+        }
+    }
+
+
+
+
+
+
+
+  /* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS CODING FOR SECTION LAST (AKA FOOTER) BODY */
+ /* -------------------------------------------------------------------- */
+
+
+ footer {
+  background-color: #000000;
+  color: #e2e8f0;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1 1 70%;
+}
+
+.footer-left h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.footer-left p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.footer-right {
+  flex: 1 1 30%;
+  text-align: right;
+}
+
+.footer-right img {
+  width: 300px;
+  height: auto;
+  opacity: 0.85;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left, .footer-right {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-right img {
+    margin: 0 auto;
+  }
+}
+  
+  /* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+  
