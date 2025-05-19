@@ -110,7 +110,7 @@ body {
   }
   
   .section-image {
-    background-image: url("/Users/amir/Pictures/Photos Library.photoslibrary/originals/6/6FAFBD44-9485-4148-B9B6-3064C3BEA814.jpeg");   
+    background-image: url("Nox Long.jpg");   
     background-color: #cccccc;
     height: 250px;
     background-position: center;
@@ -168,7 +168,7 @@ body {
     margin: 0;
     color: #224;
     background:
-      url("/Users/amir/Pictures/Photos Library.photoslibrary/originals/2/254AE239-0DC0-4005-9D2B-877A0E7E2200.jpeg")
+      url("dark bg.jpg")
       center / cover no-repeat fixed;
   }
   
